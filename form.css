@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(254, 252, 255);
+}
+
+.signup-box {
+    width: auto;
+    color: white;
+    background-color: rgb(17, 5, 59);
+
+}
+
+.name {
+    text-align: start;
+    width: 350px;
+    height: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.mobileNo {
+    width: 350px;
+    height: 30px;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.userName {
+    text-align: start;
+    width: 350px;
+    height: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.password {
+    width: 350px;
+    height: 30px;
+    text-align: left;
+    margin-left: 150px;
+
+
+}
+
+.email {
+    text-align: start;
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 5%;
+    margin-left: 80px;
+
+}
+
+.address {
+    text-align: start;
+    margin-left: 55%;
+    
+}
+
+.add {
+    width: 300px;
+
+}
+
+.gender {
+    text-align: start;
+    margin-left: 100px;
+
+}
+
+.skill {
+    text-align: start;
+    margin-left:60%;
+    width: 35%;
+    margin-right: 50px;
+}
+.skl {
+    width: 90%;
+    height: 30px;
+}
+.language{
+    text-align: start;
+    margin-left: 100px;
+    margin-top:0% ;
+
+}
+
+.btn {
+    text-align: center;
+    width: 30%;
+    margin-top:10%;
+    margin-bottom: 20px;
+    background-color: rgb(253, 6, 130);
+    color:white;
+}

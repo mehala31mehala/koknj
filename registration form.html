@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+      <div class="registration-form">
+        <h2>Registration Form</h2>
+        <form  >
+          <label for="fname">FistName:</label><br>
+          <input type="text" id="fname" name="fname" required  autofocus><br><br>
+          <label for="lname">LastName:</label><br>
+          <input type="text" id="lname" name="lname" required><br><br>
+          <label for ="age" >Age:</label><br>
+          <input type="number" id="age" name="age" step="1"><br><br>
+          <label for ="gender">Gender:</label><br>
+          <select id="gender" name="Gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="transgender">TransGender</option>
+          </select><br><br>
+         <label for ="dob">DOB:</label><br> 
+         <input type="date" id="dob"  name="dob"  min="1990-01-01"><br><br>
+         <label for="phone_no" >PhoneNo:</label><br>
+         <input type="number" id="phone_no" name="phone_no" ><br><br>
+         <label for="email">Email:</label><br>
+         <input type="email" id="email" placeholder="abc@gmail.com"  name="email"><br><br>
+         <input type="Submit" value="Submit"> 
+        </form>
+      </div>
+    </body>
+</html>
